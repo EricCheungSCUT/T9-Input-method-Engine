@@ -1,2 +1,4 @@
-# T9-Input-method-Engine
-A tiny T9 input method engine
+# T9 Input Method Engine
+一个小型的T9输入法引擎，底层用C++实现，可以跨平台，具有的功能有：
+1.输入九宫格的数字字符串，解析所有可能的拼音结果并在词库中进行检索，返回最终结果
+2.懒加载分步返回上面提到的检索结果
